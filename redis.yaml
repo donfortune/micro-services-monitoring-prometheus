@@ -1,0 +1,8 @@
+serviceMonitor:
+    enabled: true
+    labels:
+       release: monitoring
+
+
+
+redisAddress: redis://redis-cart:6379  #redis-cart >> redis service name 6379 >> accessible port
